@@ -5,7 +5,7 @@ export default function Home() {
 	return (
 		<>
 			<header>
-				<img src="/images/logo.png"></img>
+				<Image src={"/images/logo.png"} alt="Logo" width={100} height={64} />
 				<h1>Stone Drinks</h1>
 			</header>
 
@@ -53,10 +53,6 @@ export default function Home() {
 
 					height: 80px;
 					width: 100vw;
-				}
-
-				header img {
-					height: 64px;
 				}
 
 				header h1 {

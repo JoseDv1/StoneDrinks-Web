@@ -23,6 +23,8 @@ export default function App({ Component, pageProps }) {
 					background-position: center;
 					display: flex;
 					justify-content: center;
+					max-width: 100vw;
+					overflow-x: hidden;
 				}
 
 				h1 {

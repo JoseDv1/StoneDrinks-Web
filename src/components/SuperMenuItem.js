@@ -19,13 +19,14 @@ export function SuperMenuItem({
 				.item {
 					display: flex;
 					flex-direction: row;
-					justify-content: center;
+					justify-content: space-around;
 
 					padding: 0 16px;
 					align-items: center;
 					gap: 16px;
 					height: 160px;
-					max-width: fit-content;
+					width: 100%;
+					max-width: 500px;
 				}
 
 				.item .item-img {
