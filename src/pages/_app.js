@@ -4,14 +4,13 @@ export default function App({ Component, pageProps }) {
 			<Component {...pageProps} />
 
 			<style jsx global>{`
-				@import @import
-					url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+				@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
 
 				* {
 					box-sizing: border-box;
 					margin: 0;
 					padding: 0;
-					font-family: "Tilt Neon", cursive;
+					font-family: "Tilt Neon";
 					color: #fff;
 					font-size: 16px;
 				}
