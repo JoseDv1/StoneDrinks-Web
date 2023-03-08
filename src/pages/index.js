@@ -28,6 +28,16 @@ export default function Home() {
 					title={"Cocteles"}
 					reverse={true}
 				/>
+				<SuperMenuItem
+					description={
+						"Deliciosas malteadas de varios sabores, para todos los gustos"
+					}
+					image={
+						"https://s1.bukalapak.com/img/6745194083/w-1000/Strawberry_Juice_Concentrate_syrup__sirup_jus_konsentrat_bua.jpg"
+					}
+					title={"Malteadas"}
+					reverse={false}
+				/>
 			</main>
 
 			<style jsx>{`
