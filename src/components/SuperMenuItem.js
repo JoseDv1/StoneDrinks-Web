@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Router from "next/router";
 
 export function SuperMenuItem({
 	title,
@@ -9,8 +9,13 @@ export function SuperMenuItem({
 }) {
 	return (
 		<>
-			<Link href={href}>
-				<div className={reverse ? "item reverse" : "item"}>
+			<>
+				<div
+					className={reverse ? "item reverse" : "item"}
+					onClick={() => {
+						Router.push(`/menu/${href}`);
+					}}
+				>
 					<div className="item-img"></div>
 					<div className="item-description">
 						<h3>{title}</h3>
@@ -23,8 +28,7 @@ export function SuperMenuItem({
 						/>
 					</svg>
 				</div>
-				<hr />
-			</Link>
+			</>
 
 			<style jsx>{`
 				.item {
