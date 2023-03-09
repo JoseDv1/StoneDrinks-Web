@@ -118,7 +118,6 @@ export default function Home() {
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
-					gap: 16px;
 					padding: 64px 16px;
 				}
 

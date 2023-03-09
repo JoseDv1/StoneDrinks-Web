@@ -16,7 +16,14 @@ export function SuperMenuItem({
 						<h3>{title}</h3>
 						<p>{description}</p>
 					</div>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+						<path
+							fill="#fff"
+							d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0z"
+						/>
+					</svg>
 				</div>
+				<hr />
 			</Link>
 
 			<style jsx>{`
@@ -34,6 +41,7 @@ export function SuperMenuItem({
 					max-width: 500px;
 
 					padding: 8px 16px;
+					margin: 8px 0;
 				}
 
 				.item .item-img {
@@ -44,6 +52,8 @@ export function SuperMenuItem({
 					width: 50%;
 					border-radius: 50%;
 					flex-shrink: 0;
+
+					box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.25);
 				}
 
 				.item .item-description {
@@ -71,12 +81,20 @@ export function SuperMenuItem({
 					text-transform: capitalize;
 				}
 
+				svg {
+					width: 4rem;
+				}
+
 				.item.reverse {
 					flex-direction: row-reverse;
 				}
 
 				.item.reverse .item-description {
 					text-align: start;
+				}
+
+				.item.reverse svg {
+					transform: rotate(180deg);
 				}
 
 				/* Mobile */
@@ -99,6 +117,10 @@ export function SuperMenuItem({
 						width: 70%;
 						border-radius: 50%;
 						flex-shrink: 0;
+					}
+
+					svg {
+						display: none;
 					}
 
 					.item.reverse {
