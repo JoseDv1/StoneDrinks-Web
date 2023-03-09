@@ -1,7 +1,24 @@
+import Head from "next/head";
+import head from "next/head";
+
 export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<Component {...pageProps} />
+			<Head>
+				<title>Stone Drinks</title>
+				<meta
+					name="description"
+					content="Stone Drinks, la mejor bebida para tu estancia en Guatapé."
+				/>
+				<meta
+					name="keywords"
+					content="Stone Drinks, Guatapé, Bebidas, Sodas, Jugos, Malteadas, Micheladas, Cocktails"
+				/>
+				<meta name="author" content="Stone Drinks" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="icon" href="/images/logo.png" />
+			</Head>
 
 			<style jsx global>{`
 				@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
