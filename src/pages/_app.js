@@ -16,7 +16,8 @@ export default function App({ Component, pageProps }) {
 				}
 
 				body {
-					background: url("https://thumbs.gfycat.com/CanineSameEwe-size_restricted.gif");
+					background: linear-gradient(162.44deg, #070141 0%, #d91d80 100%);
+					background-image: url("https://thumbs.gfycat.com/CanineSameEwe-size_restricted.gif");
 					background-attachment: fixed;
 					background-size: cover;
 					background-repeat: no-repeat;
@@ -37,6 +38,10 @@ export default function App({ Component, pageProps }) {
 					align-items: center;
 					letter-spacing: 0.02em;
 					text-transform: capitalize;
+				}
+
+				a {
+					text-decoration: none;
 				}
 			`}</style>
 		</>

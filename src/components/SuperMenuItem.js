@@ -1,19 +1,23 @@
+import Link from "next/link";
+
 export function SuperMenuItem({
 	title,
 	description,
 	image,
 	reverse = false,
-	...props
+	href,
 }) {
 	return (
 		<>
-			<div className={reverse ? "item reverse" : "item"}>
-				<div className="item-img"></div>
-				<div className="item-description">
-					<h3>{title}</h3>
-					<p>{description}</p>
+			<Link href={href}>
+				<div className={reverse ? "item reverse" : "item"}>
+					<div className="item-img"></div>
+					<div className="item-description">
+						<h3>{title}</h3>
+						<p>{description}</p>
+					</div>
 				</div>
-			</div>
+			</Link>
 
 			<style jsx>{`
 				.item {
@@ -21,12 +25,15 @@ export function SuperMenuItem({
 					flex-direction: row;
 					justify-content: space-around;
 
-					padding: 0 16px;
 					align-items: center;
 					gap: 16px;
-					height: 160px;
+
+					max-height: 300px;
+
 					width: 100%;
 					max-width: 500px;
+
+					padding: 8px 16px;
 				}
 
 				.item .item-img {
@@ -34,7 +41,7 @@ export function SuperMenuItem({
 					background-size: cover;
 					background-position: center;
 					aspect-ratio: 1/1;
-					height: 100%;
+					width: 50%;
 					border-radius: 50%;
 					flex-shrink: 0;
 				}
@@ -43,22 +50,17 @@ export function SuperMenuItem({
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
-					align-items: start;
-					gap: 16px;
-					align-self: stretch;
+					align-items: center;
+
+					width: 50%;
 					height: 100%;
+					gap: 8px;
 					text-align: end;
 				}
 
 				.item .item-description p {
 					font-size: 1rem;
-					overflow: hidden;
-					text-overflow: ellipsis;
 					width: 100%;
-
-					display: -webkit-box;
-					-webkit-line-clamp: 3;
-					-webkit-box-orient: vertical;
 				}
 
 				.item .item-description h3 {
@@ -70,7 +72,7 @@ export function SuperMenuItem({
 				}
 
 				.item.reverse {
-					flex-direction: row-reverse !important;
+					flex-direction: row-reverse;
 				}
 
 				.item.reverse .item-description {
@@ -78,22 +80,34 @@ export function SuperMenuItem({
 				}
 
 				/* Mobile */
-				@media (max-width: 768px) {
+				@media (max-width: 426px) {
+					.item {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						gap: 16px;
+
+						max-height: max-content;
+					}
+
 					.item .item-img {
 						background-image: url(${image});
 						background-size: cover;
 						background-position: center;
 						aspect-ratio: 1/1;
-						height: 60%;
+						width: 70%;
 						border-radius: 50%;
 						flex-shrink: 0;
 					}
-				}
 
-				/* Very small mobile */
-				@media (max-width: 300px) {
-					.item .item-description p {
-						display: none;
+					.item.reverse {
+						flex-direction: column;
+					}
+
+					.item .item-description,
+					.item.reverse .item-description {
+						text-align: center;
 					}
 				}
 			`}</style>
