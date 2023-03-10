@@ -1,10 +1,10 @@
 import { Header } from "@components/Header";
 import { MenuItem } from "@components/MenuItem";
 
-export default function SodasPage({ ...props }) {
+export default function PecerasPage({ ...props }) {
 	return (
 		<>
-			<Header title={"Sodas Saborizadas"} price={"$8000"} back={true} />
+			<Header title={"Peceras"} price={"$8000"} back={true} />
 			<main></main>
 			<style jsx>{`
 				main {

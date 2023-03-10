@@ -4,7 +4,7 @@ import { MenuItem } from "@components/MenuItem";
 export default function ShotsPage({ ...props }) {
 	return (
 		<>
-			<Header title={"Sodas Saborizadas"} price={"$8000"} back={true} />
+			<Header title={"Shots"} price={"$7000"} back={true} />
 			<main></main>
 			<style jsx>{`
 				main {
