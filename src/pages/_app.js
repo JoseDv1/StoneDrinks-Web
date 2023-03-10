@@ -38,8 +38,10 @@ export default function App({ Component, pageProps }) {
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position: center;
+
 					display: flex;
 					justify-content: center;
+					min-height: 100vh;
 					max-width: 100vw;
 					overflow-x: hidden;
 				}
@@ -58,6 +60,25 @@ export default function App({ Component, pageProps }) {
 
 				a {
 					text-decoration: none;
+				}
+
+				/* Scroll bar */
+				::-webkit-scrollbar {
+					width: 10px;
+				}
+
+				/* dont show the scrollbar track */
+				::-webkit-scrollbar-track {
+					background: transparent;
+				}
+
+				::-webkit-scrollbar-thumb {
+					background: #888;
+					border-radius: 10px;
+				}
+
+				::-webkit-scrollbar-thumb:hover {
+					background: #555;
 				}
 			`}</style>
 		</>

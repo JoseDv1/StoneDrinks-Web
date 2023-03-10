@@ -42,6 +42,7 @@ export function Header({ title, price, back = false, ...props }) {
 					fill: #fff;
 					transform: rotate(180deg);
 					cursor: pointer;
+					flex-shrink: 0;
 				}
 
 				header {
@@ -66,7 +67,7 @@ export function Header({ title, price, back = false, ...props }) {
 				}
 
 				.title h1 {
-					font-size: 2.5rem;
+					font-size: 2rem;
 					line-height: 40px;
 					align-items: center;
 					letter-spacing: 0.02em;
@@ -93,6 +94,10 @@ export function Header({ title, price, back = false, ...props }) {
 						line-height: 24px;
 						letter-spacing: 0.02em;
 						text-transform: capitalize;
+					}
+
+					.logo {
+						display: none;
 					}
 				}
 			`}</style>
