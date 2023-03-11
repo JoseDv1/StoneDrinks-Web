@@ -85,6 +85,17 @@ export default function Menu() {
 					reverse={false}
 					href={"/peceras"}
 				/>
+				<SuperMenuItem
+					title={"Licores"}
+					description={
+						"Grandes dosis de alcohol para subir el ánimo. Desde el suave Baileys hasta el fuerte Aguardiente Antioqueño."
+					}
+					image={
+						"https://th.bing.com/th/id/OIP.Zh8lJWmgwAlDwu_D77jY7gHaGt?pid=ImgDet&rs=1"
+					}
+					reverse={true}
+					href={"/licores"}
+				/>
 			</content>
 
 			<style jsx>{`

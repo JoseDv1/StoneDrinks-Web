@@ -3,7 +3,6 @@ import Head from "next/head";
 export default function App({ Component, pageProps }) {
 	return (
 		<>
-			<Component {...pageProps} />
 			<Head>
 				<title>Stone Drinks</title>
 				<meta
@@ -18,6 +17,7 @@ export default function App({ Component, pageProps }) {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="icon" href="/images/logo.png" />
 			</Head>
+			<Component {...pageProps} />
 
 			<style jsx global>{`
 				@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
