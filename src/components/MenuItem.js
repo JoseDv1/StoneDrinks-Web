@@ -4,8 +4,14 @@ export function MenuItem({ title, price, description, image, ...props }) {
 	return (
 		<>
 			<div className="item">
-				<div className="item-img">
-					<Image src={image} alt={title} width={200} height={200} />
+				<div className="item-img item-image">
+					<Image
+						src={image}
+						alt={title}
+						width={200}
+						height={200}
+						className="product-image"
+					/>
 				</div>
 				<div className="item-description">
 					<h3>{title}</h3>
@@ -34,8 +40,9 @@ export function MenuItem({ title, price, description, image, ...props }) {
 
 			{/* Global styles */}
 			<style jsx global>{`
-				.item img {
+				.item img.product-image {
 					border-radius: 25%;
+					box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.25);
 				}
 			`}</style>
 		</>

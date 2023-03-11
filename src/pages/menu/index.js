@@ -17,7 +17,7 @@ export default function Menu() {
 						"https://th.bing.com/th/id/OIP.72YzgLZsONNLCH002XRZAwHaHa?pid=ImgDet&rs=1"
 					}
 					reverse={false}
-					href={"/sodas"}
+					href={"sodas"}
 				/>
 				<SuperMenuItem
 					title={"Jugos Naturales"}
@@ -28,7 +28,7 @@ export default function Menu() {
 						"https://www.frutalia.com.co/wp-content/uploads/2020/12/Bebidas-saludables-a-base-de-frutas-frutalia-de-colombia-colombia-bogota-1.jpg"
 					}
 					reverse={true}
-					href={"/jugos"}
+					href={"jugos"}
 				/>
 				<SuperMenuItem
 					title={"Malteadas"}
@@ -39,7 +39,7 @@ export default function Menu() {
 						"https://www.torani.com/sites/default/files/recipes/illustration/20_milkshakes_0120.jpg"
 					}
 					reverse={false}
-					href={"/malteadas"}
+					href={"malteadas"}
 				/>
 				<SuperMenuItem
 					title={"Micheladas"}
@@ -50,7 +50,7 @@ export default function Menu() {
 						"https://th.bing.com/th/id/OIP.MFaezCArKaoU438S7ssLXQHaHa?pid=ImgDet&rs=1"
 					}
 					reverse={true}
-					href={"/micheladas"}
+					href={"micheladas"}
 				/>
 				<SuperMenuItem
 					title={"Cocktails"}
@@ -61,7 +61,7 @@ export default function Menu() {
 						"https://th.bing.com/th/id/OIP.Y6AZ5vc4krmxa1VmXimG1wHaHa?pid=ImgDet&rs=1"
 					}
 					reverse={false}
-					href={"/cocktails"}
+					href={"cocktails"}
 				/>
 				<SuperMenuItem
 					title={"Shots - Tragos"}
@@ -72,7 +72,7 @@ export default function Menu() {
 						"https://www.shotsbar.com/wp-content/uploads/2020/06/shot-poiur-980x980.jpg"
 					}
 					reverse={true}
-					href={"/shots"}
+					href={"shots"}
 				/>
 				<SuperMenuItem
 					title={"Peceras"}
@@ -83,7 +83,7 @@ export default function Menu() {
 						"https://th.bing.com/th/id/R.1c7779d02361f385a7eab30c6d9c7cce?rik=V7Ai1C6orRALWQ&pid=ImgRaw&r=0"
 					}
 					reverse={false}
-					href={"/peceras"}
+					href={"peceras"}
 				/>
 				<SuperMenuItem
 					title={"Licores"}
@@ -94,7 +94,7 @@ export default function Menu() {
 						"https://th.bing.com/th/id/OIP.Zh8lJWmgwAlDwu_D77jY7gHaGt?pid=ImgDet&rs=1"
 					}
 					reverse={true}
-					href={"/licores"}
+					href={"licores"}
 				/>
 			</content>
 
