@@ -2,8 +2,6 @@ import { Header } from "@components/Header";
 import { MenuItem } from "@components/MenuItem";
 
 export default function CocktailsPage({ ...props }) {
-	// make a list of objects with this: Cuba libre, Margarita, Mojito, Old Fashion, Martini, Vodka Martini, Tom Collins, Piña colada, Coco Loco, Destornillador, Negroni, Sex on the beach, Tequila Sunrise, Moscow Mule, Bramble, Aperol Spritz, Manhattan, Cosmopolitan.
-
 	const clasicCocktails = [
 		{
 			name: "Cuba libre",
@@ -25,9 +23,10 @@ export default function CocktailsPage({ ...props }) {
 		},
 		{
 			name: "Old Fashion",
-			price: "15.000$",
-			description: "Una cuba libre",
-			image: "/images/placeholder.jpg",
+			price: "25.000$",
+			description:
+				"Disfruta de un clásico cóctel old fashion. Este combinado de whisky, azúcar y amargos te transportará a una época de neones y sintetizadores mientras admiras los coloridos zócalos de Guatapé",
+			image: "/images/cocteles/OldFashion.jpg",
 		},
 		{
 			name: "Martini",
@@ -55,16 +54,18 @@ export default function CocktailsPage({ ...props }) {
 		},
 		{
 			name: "Coco Loco",
-			price: "15.000$",
-			description: "Una cuba libre",
-			image: "/images/placeholder.jpg",
+			price: "30.000$",
+			description:
+				"Un viaje sensorial al Caribe tropical con una explosión de sabores. Disfruta de esta deliciosa mezcla de vodka, tequila, ron blanco, leche condensada y crema de coco",
+			image: "/images/cocteles/CocoLoco.jpg",
 		},
 
 		{
 			name: "Destornillador",
 			price: "15.000$",
-			description: "Una cuba libre",
-			image: "/images/placeholder.jpg",
+			description:
+				"Disfruta de este clásico americano con un toque tropical, hecho con vodka y jugo de naranja natural. Acompañalo con una de las mejores vistas al embalse de Guatapé",
+			image: "/images/cocteles/Destornillador.jpg",
 		},
 		{
 			name: "Negroni",
@@ -74,15 +75,17 @@ export default function CocktailsPage({ ...props }) {
 		},
 		{
 			name: "Sex on the beach",
-			price: "15.000$",
-			description: "Una cuba libre",
-			image: "/images/placeholder.jpg",
+			price: "25.000$",
+			description:
+				"Un coctel refrescante y dulce con vodka, jugo de naranja, durazno y granadina",
+			image: "/images/cocteles/SexOnTheBeach.jpg",
 		},
 		{
 			name: "Tequila Sunrise",
-			price: "15.000$",
-			description: "Una cuba libre",
-			image: "/images/placeholder.jpg",
+			price: "25.000$",
+			description:
+				"Disfruta de un delicioso Tequila Sunrise, el cóctel clásico que te transporta al amanecer de Acapulco con su mezcla de tequila, jugo de naranja y granadina",
+			image: "/images/cocteles/SexOnTheBeach.jpg",
 		},
 		{
 			name: "Moscow Mule",

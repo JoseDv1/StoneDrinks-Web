@@ -7,8 +7,9 @@ export default function MicheladasPage({ ...props }) {
 		{
 			name: "Michelada Sencilla",
 			price: "10.000$",
-			description: "Cerveza con limón y sal",
-			image: "/images/placeholder.jpg",
+			description:
+				"Cerveza con limón y sal, perfecto para la vista y tu paladar",
+			image: "/images/micheladas/Sencilla.jpg",
 		},
 		{
 			name: "Michelada de Mango",

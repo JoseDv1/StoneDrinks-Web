@@ -5,7 +5,7 @@ export function Header({ title, price, back = false, ...props }) {
 	return (
 		<>
 			<header>
-				<div>
+				<div className="back-button">
 					{back && (
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -74,8 +74,7 @@ export function Header({ title, price, back = false, ...props }) {
 					text-transform: capitalize;
 
 					flex: none;
-					flex-grow: 1;
-					align-self: stretch;
+					align-self: center;
 
 					padding: 0;
 					margin: 0;
@@ -88,16 +87,20 @@ export function Header({ title, price, back = false, ...props }) {
 
 				/*Mobile */
 				@media (max-width: 550px) {
-					/* if the title h1 not have a brother*/
-					.title h1:not(:only-child) {
+					header {
+						padding: 8px 8px;
+						gap: 8px;
+					}
+
+					.title h1 {
 						font-size: 1.5rem;
 						line-height: 24px;
 						letter-spacing: 0.02em;
 						text-transform: capitalize;
 					}
 
-					.logo {
-						display: none;
+					.title h2 {
+						font-size: 1rem;
 					}
 				}
 			`}</style>

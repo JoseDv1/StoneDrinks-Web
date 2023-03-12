@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }) {
 				<link rel="icon" href="/images/logo.png" />
 			</Head>
 			<Component {...pageProps} />
+			<Footer />
 
 			<style jsx global>{`
 				@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");

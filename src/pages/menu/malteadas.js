@@ -37,8 +37,9 @@ export default function MalteadasPage({ ...props }) {
 		{
 			name: "Malteada de Oreo",
 			price: "12.000$",
-			description: "Sabrosa malteada de oreo",
-			image: "/images/placeholder.jpg",
+			description:
+				"Disfruta de una deliciosa malteada de oreo con salsa de chocolate, helado de vainilla y trocitos de galleta",
+			image: "/images/malteadas/Oreo.jpg",
 		},
 		{
 			name: "Malteada de Milo",
