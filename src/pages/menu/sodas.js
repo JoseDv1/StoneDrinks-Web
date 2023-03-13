@@ -8,13 +8,13 @@ export default function SodasPage({ ...props }) {
 			name: "Soda de Frutos Rojos",
 			price: "8000$",
 			description: "Sabrosa soda de frutos rojos",
-			image: "/images/placeholder.jpg",
+			image: "/images/sodas/FrutosRojos.jpg",
 		},
 		{
 			name: "Soda de Frutos Verdes",
 			price: "8000$",
 			description: "Sabrosa soda de frutos verdes",
-			image: "/images/placeholder.jpg",
+			image: "/images/sodas/FrutosVerdes.jpg",
 		},
 		{
 			name: "Soda de Mango",

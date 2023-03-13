@@ -21,7 +21,7 @@ export default function MicheladasPage({ ...props }) {
 			name: "Michelada de Maracuya",
 			price: "12.000$",
 			description: "Cerveza con limón, sal y maracuya",
-			image: "/images/placeholder.jpg",
+			image: "/images/micheladas/MicheladaMaracuya.jpg",
 		},
 		{
 			name: "Michelada de Cereza",

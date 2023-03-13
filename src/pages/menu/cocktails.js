@@ -48,9 +48,10 @@ export default function CocktailsPage({ ...props }) {
 		},
 		{
 			name: "Piña colada",
-			price: "15.000$",
-			description: "Una cuba libre",
-			image: "/images/placeholder.jpg",
+			price: "20.000$",
+			description:
+				"La piña colada es el cóctel perfecto para disfrutar del sabor del Caribe. Esta bebida refrescante y cremosa combina el ron blanco con la crema de coco y el jugo de piña natural. Prueba esta delicia tropical y siente la brisa marina en tu paladar.",
+			image: "/images/cocteles/PiñaColada.jpg",
 		},
 		{
 			name: "Coco Loco",
@@ -62,10 +63,10 @@ export default function CocktailsPage({ ...props }) {
 
 		{
 			name: "Destornillador",
-			price: "15.000$",
+			price: "20.000$",
 			description:
 				"Disfruta de este clásico americano con un toque tropical, hecho con vodka y jugo de naranja natural. Acompañalo con una de las mejores vistas al embalse de Guatapé",
-			image: "/images/cocteles/Destornillador.jpg",
+			image: "/images/cocteles/destornillador.jpg",
 		},
 		{
 			name: "Negroni",
