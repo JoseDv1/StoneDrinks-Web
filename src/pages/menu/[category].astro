@@ -1,0 +1,82 @@
+---
+import type { GetStaticPaths } from "astro";
+import { menu, type Item } from "@/menu.js";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/header.astro";
+import Footer from "@/components/Footer.astro";
+
+export const getStaticPaths = (() => {
+	const categories = Object.keys(menu);
+
+	return categories.map((category) => ({
+		params: {
+			category,
+		},
+		props: {
+			items: menu[category].items,
+		},
+	}));
+}) satisfies GetStaticPaths;
+
+interface Props {
+	items: Array<Item>;
+}
+
+const { category } = Astro.params;
+const { items } = Astro.props;
+---
+
+<Layout>
+	<Header />
+	<h2>{category.replace("-", " ").toLowerCase()}</h2>
+	<main>
+		{
+			items.map((item) => (
+				<article>
+					<picture>
+						<img src={item.image} alt={item.name} />
+					</picture>
+					<h3>{item.name}</h3>
+					<p>{item.description}</p>
+				</article>
+			))
+		}
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	h2 {
+		text-transform: capitalize;
+		text-align: center;
+		font-size: 2.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 1rem;
+		padding: 1rem 2rem;
+	}
+
+	article {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	article picture {
+		width: 100%;
+		border-radius: 4rem;
+		aspect-ratio: 1 / 1;
+		overflow: hidden;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+</style>

@@ -1,0 +1,58 @@
+---
+import FacebookIcon from "@/icons/FacebookIcon.astro";
+import InstagramIcon from "@/icons/InstagramIcon.astro";
+---
+
+<footer>
+	<a href="/menu">
+		<img src="/imgs/logo.png" alt="Stone Drinks" />
+		<h2>Stone Drinks</h2>
+	</a>
+	<section>
+		<a href="https://www.facebook.com/Stone.drinks/">
+			<FacebookIcon />
+			 Facebook
+		</a>
+		<a href="https://www.instagram.com/stone_drinks/">
+			<InstagramIcon />
+			 Instagram
+		</a>
+	</section>
+</footer>
+
+<style>
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 1rem;
+		background-color: var(--accent-color);
+		gap: 1rem;
+	}
+
+	footer > a {
+		flex: 0 0 50%;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	footer > a > img {
+		width: 3rem;
+		height: auto;
+	}
+
+	footer section {
+		display: flex;
+		flex-wrap: wrap;
+
+		gap: 1rem;
+	}
+
+	section a {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+</style>

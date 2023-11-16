@@ -1,16 +1,31 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<script>
+	setTimeout(() => {
+		// Redirect to menu page
+		window.location.href = "/menu";
+	}, 3000);
+</script>
+
+<Layout>
+	<picture>
+		<img src="/imgs/logo.png" alt="logo" />
+	</picture>
+</Layout>
+
+<style>
+	picture {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100dvh;
+		padding: 2rem;
+	}
+
+	img {
+		width: 100%;
+		max-width: 300px;
+	}
+</style>

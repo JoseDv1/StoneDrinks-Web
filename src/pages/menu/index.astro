@@ -1,0 +1,69 @@
+---
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/header.astro";
+import Layout from "@/layouts/Layout.astro";
+import { menu } from "@/menu.js";
+---
+
+<Layout>
+	<Header />
+	<main>
+		{
+			Object.keys(menu).map((category) => {
+				const transformedCategoryName = category
+					.replace("-", " ")
+					.toLowerCase();
+
+				return (
+					<a href={`/menu/${category}`}>
+						<picture>
+							<img src={`imgs/menuImages/${category}.jpg`} alt="" />
+						</picture>
+						<h2>{transformedCategoryName}</h2>
+					</a>
+				);
+			})
+		}
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	h1 {
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	h2 {
+		text-transform: capitalize;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	main {
+		padding: 1rem 2rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1rem;
+	}
+
+	a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	a picture {
+		width: 100%;
+		aspect-ratio: 1/1;
+		overflow: hidden;
+		border-radius: 4rem;
+	}
+
+	a picture img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+</style>
