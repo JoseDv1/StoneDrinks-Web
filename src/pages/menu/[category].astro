@@ -28,8 +28,8 @@ const { items } = Astro.props;
 
 <Layout>
 	<Header />
-	<h2>{category.replace("-", " ").toLowerCase()}</h2>
 	<main>
+		<h2>{category.replace("-", " ").toLowerCase()}</h2>
 		{
 			items.map((item) => (
 				<article>
@@ -50,14 +50,14 @@ const { items } = Astro.props;
 		text-transform: capitalize;
 		text-align: center;
 		font-size: 2.5rem;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
 	}
 
 	main {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		gap: 1rem;
-		padding: 1rem 2rem;
+		padding: calc(100px + 1rem) 2rem calc(200px + 1rem);
 	}
 
 	article {

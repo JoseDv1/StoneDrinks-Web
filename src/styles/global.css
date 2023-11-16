@@ -32,6 +32,7 @@ body {
 	background-position: center;
 	min-height: 100dvh;
 	color: #fff;
+	position: relative;
 }
 
 svg {
