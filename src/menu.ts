@@ -152,35 +152,35 @@ export const menu: Menu = {
 		],
 		image: "/imgs/menuImages/clasic_Cocktails.jpg",
 	},
-	cocktails: {
-		items: [
-			// {
-			// 	name: "Stone White Russian",
-			// 	price: "15.000$",
-			// 	description: "Una cuba libre",
-			// 	image: "/imgs/placeholder.jpg",
-			// },
-			// {
-			// 	name: "Stone Long Island",
-			// 	price: "15.000$",
-			// 	description: "Una cuba libre",
-			// 	image: "/imgs/placeholder.jpg",
-			// },
-			// {
-			// 	name: "Esperanza Stone",
-			// 	price: "15.000$",
-			// 	description: "Una cuba libre",
-			// 	image: "/imgs/placeholder.jpg",
-			// },
-			// {
-			// 	name: "Stone Bloody Mary",
-			// 	price: "15.000$",
-			// 	description: "Una cuba libre",
-			// 	image: "/imgs/placeholder.jpg",
-			// },
-		],
-		image: "/imgs/menuImages/cocktails.jpg",
-	},
+	// cocktails: {
+	// 	items: [
+	// 		// {
+	// 		// 	name: "Stone White Russian",
+	// 		// 	price: "15.000$",
+	// 		// 	description: "Una cuba libre",
+	// 		// 	image: "/imgs/placeholder.jpg",
+	// 		// },
+	// 		// {
+	// 		// 	name: "Stone Long Island",
+	// 		// 	price: "15.000$",
+	// 		// 	description: "Una cuba libre",
+	// 		// 	image: "/imgs/placeholder.jpg",
+	// 		// },
+	// 		// {
+	// 		// 	name: "Esperanza Stone",
+	// 		// 	price: "15.000$",
+	// 		// 	description: "Una cuba libre",
+	// 		// 	image: "/imgs/placeholder.jpg",
+	// 		// },
+	// 		// {
+	// 		// 	name: "Stone Bloody Mary",
+	// 		// 	price: "15.000$",
+	// 		// 	description: "Una cuba libre",
+	// 		// 	image: "/imgs/placeholder.jpg",
+	// 		// },
+	// 	],
+	// 	image: "/imgs/menuImages/cocktails.jpg",
+	// },
 	jugos: {
 		items: [
 			{
