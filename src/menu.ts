@@ -80,7 +80,7 @@ export const menu: Menu = {
 				name: "Destornillador",
 				price: "20.000$",
 				description:
-					"Disfruta de este clásico americano con un toque tropical, hecho con vodka y jugo de naranja natural. Acompañalo con una de las mejores vistas al embalse de Guatapé",
+					"Disfruta de este clásico americano con un toque tropical, hecho con vodka y jugo de naranja. Acompañalo con una de las mejores vistas al embalse de Guatapé",
 				image: "/imgs/cocteles/destornillador.jpg",
 			},
 			{
