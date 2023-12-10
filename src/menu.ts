@@ -63,7 +63,7 @@ export const menu: Menu = {
 			},
 			{
 				name: "Piña colada",
-				price: "22.000$",
+				price: "25.000$",
 				description:
 					"La piña colada es el cóctel perfecto para disfrutar del sabor del Caribe. Esta bebida refrescante y cremosa combina el ron blanco con la crema de coco y el jugo de piña natural. Prueba esta delicia tropical y siente la brisa marina en tu paladar.",
 				image: "/imgs/cocteles/PiñaColada.jpg",
