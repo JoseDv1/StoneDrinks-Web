@@ -18,7 +18,7 @@ export const menu: Menu = {
 		items: [
 			{
 				name: "Cuba libre",
-				price: "15.000$",
+				price: "20.000$",
 				description: "Refrescante combinado de ron, lima y cola.",
 				image: "/imgs/cocteles/CubaLibre.jpg",
 			},
@@ -30,7 +30,7 @@ export const menu: Menu = {
 			},
 			{
 				name: "Mojito",
-				price: "22.000$",
+				price: "25.000$",
 				description:
 					"El clásico mojito de ron, lima y hierbabuena. Disponible de varios sabores.",
 				image: "/imgs/cocteles/Mojito.jpg",
