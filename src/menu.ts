@@ -185,43 +185,43 @@ export const menu: Menu = {
 		items: [
 			{
 				name: "Jugos de Mango",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de mango natural",
 				image: "/imgs/placeholder.jpg",
 			},
 			{
 				name: "Jugos de Mora",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de mora natural",
 				image: "/imgs/placeholder.jpg",
 			},
 			{
 				name: "Jugos de Maracuya",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de maracuya natural",
 				image: "/imgs/placeholder.jpg",
 			},
 			{
 				name: "Jugos de Fresa",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de fresa natural",
 				image: "/imgs/placeholder.jpg",
 			},
 			{
 				name: "Jugos de Lulo",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de lulo natural",
 				image: "/imgs/placeholder.jpg",
 			},
 			{
 				name: "Jugos de Guanabana",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de guanabana natural",
 				image: "/imgs/placeholder.jpg",
 			},
 			{
 				name: "Jugos de Mandarina",
-				price: "7000$ - 8000$",
+				price: "8000$ - 10000$",
 				description: "Jugo de mandarina natural",
 				image: "/imgs/placeholder.jpg",
 			},
@@ -264,122 +264,122 @@ export const menu: Menu = {
 		image: "/imgs/menuImages/limonadas.jpg",
 	},
 	// licores: [],
-	malteadas: {
-		items: [
-			{
-				name: "Malteada de Vainilla",
-				price: "12.000$",
-				description: "Sabrosa malteada de vainilla",
-				image: "/imgs/malteadas/MalteadaVainilla.jpg",
-			},
-			{
-				name: "Malteada de Fresa",
-				price: "12.000$",
-				description: "Sabrosa malteada de fresa",
-				image: "/imgs/malteadas/MalteadaFresa.jpg",
-			},
-			{
-				name: "Malteada de Chocolate",
-				price: "12.000$",
-				description: "Sabrosa malteada de chocolate",
-				image: "/imgs/malteadas/MalteadaChocolate.jpg",
-			},
-			{
-				name: "Malteada de Café",
-				price: "12.000$",
-				description: "Sabrosa malteada de café",
-				image: "/imgs/malteadas/MalteadaCafe.jpg",
-			},
-			{
-				name: "Malteada de Vainilla con mora",
-				price: "12.000$",
-				description: "Sabrosa malteada de vainilla con mora",
-				image: "/imgs/malteadas/VainillaMora.jpg",
-			},
-			{
-				name: "Malteada de Oreo",
-				price: "12.000$",
-				description:
-					"Disfruta de una deliciosa malteada de oreo con salsa de chocolate, helado de vainilla y trocitos de galleta",
-				image: "/imgs/malteadas/Oreo.jpg",
-			},
-			{
-				name: "Malteada de Milo",
-				price: "12.000$",
-				description: "Sabrosa malteada de milo",
-				image: "/imgs/malteadas/MalteadaMilo.jpg",
-			},
-			{
-				name: "Malteada de Frutos Rojos",
-				price: "12.000$",
-				description: "Sabrosa malteada de frutos rojos",
-				image: "/imgs/placeholder.jpg",
-			},
-			{
-				name: "Malteada de Maracuya",
-				price: "12.000$",
-				description: "Sabrosa malteada de maracuya",
-				image: "/imgs/malteadas/MalteadaMaracuya.jpg",
-			},
-			{
-				name: "Malteada de Vainilla",
-				price: "12.000$",
-				description: "Sabrosa malteada de vainilla",
-				image: "/imgs/malteadas/MalteadaVainilla.jpg",
-			},
-			{
-				name: "Malteada de Fresa",
-				price: "12.000$",
-				description: "Sabrosa malteada de fresa",
-				image: "/imgs/malteadas/MalteadaFresa.jpg",
-			},
-			{
-				name: "Malteada de Chocolate",
-				price: "12.000$",
-				description: "Sabrosa malteada de chocolate",
-				image: "/imgs/malteadas/MalteadaChocolate.jpg",
-			},
-			{
-				name: "Malteada de Café",
-				price: "12.000$",
-				description: "Sabrosa malteada de café",
-				image: "/imgs/malteadas/MalteadaCafe.jpg",
-			},
-			{
-				name: "Malteada de Vainilla con mora",
-				price: "12.000$",
-				description: "Sabrosa malteada de vainilla con mora",
-				image: "/imgs/malteadas/VainillaMora.jpg",
-			},
-			{
-				name: "Malteada de Oreo",
-				price: "12.000$",
-				description:
-					"Disfruta de una deliciosa malteada de oreo con salsa de chocolate, helado de vainilla y trocitos de galleta",
-				image: "/imgs/malteadas/Oreo.jpg",
-			},
-			{
-				name: "Malteada de Milo",
-				price: "12.000$",
-				description: "Sabrosa malteada de milo",
-				image: "/imgs/malteadas/MalteadaMilo.jpg",
-			},
-			{
-				name: "Malteada de Frutos Rojos",
-				price: "12.000$",
-				description: "Sabrosa malteada de frutos rojos",
-				image: "/imgs/placeholder.jpg",
-			},
-			{
-				name: "Malteada de Maracuya",
-				price: "12.000$",
-				description: "Sabrosa malteada de maracuya",
-				image: "/imgs/malteadas/MalteadaMaracuya.jpg",
-			},
-		],
+	// malteadas: {
+	// 	items: [
+	// 		{
+	// 			name: "Malteada de Vainilla",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de vainilla",
+	// 			image: "/imgs/malteadas/MalteadaVainilla.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Fresa",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de fresa",
+	// 			image: "/imgs/malteadas/MalteadaFresa.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Chocolate",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de chocolate",
+	// 			image: "/imgs/malteadas/MalteadaChocolate.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Café",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de café",
+	// 			image: "/imgs/malteadas/MalteadaCafe.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Vainilla con mora",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de vainilla con mora",
+	// 			image: "/imgs/malteadas/VainillaMora.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Oreo",
+	// 			price: "12.000$",
+	// 			description:
+	// 				"Disfruta de una deliciosa malteada de oreo con salsa de chocolate, helado de vainilla y trocitos de galleta",
+	// 			image: "/imgs/malteadas/Oreo.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Milo",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de milo",
+	// 			image: "/imgs/malteadas/MalteadaMilo.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Frutos Rojos",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de frutos rojos",
+	// 			image: "/imgs/placeholder.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Maracuya",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de maracuya",
+	// 			image: "/imgs/malteadas/MalteadaMaracuya.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Vainilla",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de vainilla",
+	// 			image: "/imgs/malteadas/MalteadaVainilla.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Fresa",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de fresa",
+	// 			image: "/imgs/malteadas/MalteadaFresa.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Chocolate",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de chocolate",
+	// 			image: "/imgs/malteadas/MalteadaChocolate.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Café",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de café",
+	// 			image: "/imgs/malteadas/MalteadaCafe.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Vainilla con mora",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de vainilla con mora",
+	// 			image: "/imgs/malteadas/VainillaMora.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Oreo",
+	// 			price: "12.000$",
+	// 			description:
+	// 				"Disfruta de una deliciosa malteada de oreo con salsa de chocolate, helado de vainilla y trocitos de galleta",
+	// 			image: "/imgs/malteadas/Oreo.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Milo",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de milo",
+	// 			image: "/imgs/malteadas/MalteadaMilo.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Frutos Rojos",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de frutos rojos",
+	// 			image: "/imgs/placeholder.jpg",
+	// 		},
+	// 		{
+	// 			name: "Malteada de Maracuya",
+	// 			price: "12.000$",
+	// 			description: "Sabrosa malteada de maracuya",
+	// 			image: "/imgs/malteadas/MalteadaMaracuya.jpg",
+	// 		},
+	// 	],
 
-		image: "/imgs/menuImages/malteadas.jpg",
-	},
+	// 	image: "/imgs/menuImages/malteadas.jpg",
+	// },
 	micheladas: {
 		items: [
 			{
@@ -483,5 +483,5 @@ export const menu: Menu = {
 		],
 		image: "/imgs/menuImages/sodas.jpg",
 	},
-	// cervezas: [],
+
 };
